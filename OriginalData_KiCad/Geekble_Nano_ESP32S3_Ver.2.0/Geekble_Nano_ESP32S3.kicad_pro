@@ -49,7 +49,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -563,7 +563,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Geekble_Nano_ESP32S3.step",
+      "step": "../../../../../../Downloads/Geekble_Nano_Ver.2.0_ESP32S3.step",
       "svg": "",
       "vrml": ""
     },
