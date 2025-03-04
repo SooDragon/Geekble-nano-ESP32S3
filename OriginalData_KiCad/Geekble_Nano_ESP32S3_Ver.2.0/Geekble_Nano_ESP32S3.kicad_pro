@@ -563,7 +563,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../Downloads/Geekble_Nano_Ver.2.0_ESP32S3.step",
+      "step": "../../../../../Downloads/Geekble_Nano_Ver.2.0_ESP32S3.step",
       "svg": "",
       "vrml": ""
     },

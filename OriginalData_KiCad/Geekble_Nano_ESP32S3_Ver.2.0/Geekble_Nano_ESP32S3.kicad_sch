@@ -1635,6 +1635,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capacitors:22uF,6.3V,0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22uF,6.3V,0603"
+				(at -1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitors:C_0603"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8555544417670705152"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C59461"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CL10A226MQ8NRNC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Library Type" "Basic"
+				(at 0 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "22uF,6.3V,0603_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "22uF,6.3V,0603_1_1"
+				(pin passive line
+					(at -1.27 0 0)
+					(length 0.254)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 0 180)
+					(length 0.254)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitors:47uF,10V,0805"
 			(pin_numbers
 				(hide yes)
@@ -1793,203 +1990,6 @@
 				)
 			)
 			(symbol "47uF,10V,0805_1_1"
-				(pin passive line
-					(at -1.27 0 0)
-					(length 0.254)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 0 180)
-					(length 0.254)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Capacitors:47uF,6.3V,0805"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "47uF,6.3V,0805"
-				(at -1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitors:C_0805"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A476MQYNNNE_C16780.pdf"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 47UF 6.3V 0805 ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C16780"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CL21A476MQYNNNE"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Type" "Extended"
-				(at 0 13.716 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0805*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "47uF,6.3V,0805_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 0) (xy -1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "47uF,6.3V,0805_1_1"
 				(pin passive line
 					(at -1.27 0 0)
 					(length 0.254)
@@ -8935,7 +8935,7 @@
 		(at 186.69 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "31f8a093-9d59-4e88-858d-4b0416a2c553")
+		(uuid "324dba7f-d07f-41f3-943a-b509d6ddd037")
 	)
 	(junction
 		(at 99.06 73.66)
@@ -9004,7 +9004,7 @@
 		(uuid "a26ae1a7-dee8-4d62-b34b-36a78dac9671")
 	)
 	(junction
-		(at 191.77 31.75)
+		(at 189.23 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2ee9294-44bf-41e9-8fab-94aa27571dd4")
@@ -9056,6 +9056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c634e2e6-be34-47ca-949d-f26013755ee1")
+	)
+	(junction
+		(at 187.96 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb24f2d-32d8-497e-8099-bf43ccbb1b5a")
 	)
 	(junction
 		(at 40.64 38.1)
@@ -9255,6 +9261,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 38.1) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdb8645-d3a3-4e63-81f9-4bdf002b79ea")
+	)
+	(wire
+		(pts
 			(xy 104.14 193.04) (xy 104.14 176.53)
 		)
 		(stroke
@@ -9395,7 +9411,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 33.02) (xy 186.69 31.75)
+			(xy 189.23 34.29) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9505,7 +9521,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 20.32) (xy 196.85 20.32)
+			(xy 193.04 20.32) (xy 194.31 20.32)
 		)
 		(stroke
 			(width 0)
@@ -9825,7 +9841,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 20.32) (xy 191.77 20.32)
+			(xy 190.5 20.32) (xy 189.23 20.32)
 		)
 		(stroke
 			(width 0)
@@ -9915,7 +9931,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 31.75) (xy 196.85 31.75)
+			(xy 189.23 31.75) (xy 198.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9952,6 +9968,16 @@
 			(type default)
 		)
 		(uuid "52c95eb9-3a9b-44dd-9162-9d5e1379a390")
+	)
+	(wire
+		(pts
+			(xy 186.69 31.75) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5365f564-84a6-4e48-8593-bbe61b9fa554")
 	)
 	(wire
 		(pts
@@ -11105,6 +11131,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 38.1) (xy 186.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e447b6-6682-4c7f-a0ef-cd0fe390deb0")
+	)
+	(wire
+		(pts
 			(xy 276.86 69.85) (xy 260.35 69.85)
 		)
 		(stroke
@@ -11115,7 +11151,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 20.32) (xy 201.93 20.32)
+			(xy 198.12 20.32) (xy 199.39 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11155,7 +11191,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 36.83) (xy 186.69 35.56)
+			(xy 187.96 39.37) (xy 187.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11175,7 +11211,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 20.32) (xy 191.77 31.75)
+			(xy 189.23 20.32) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11315,6 +11351,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 38.1) (xy 189.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce113dd-53e2-42b2-9ddc-d4064231293f")
+	)
+	(wire
+		(pts
 			(xy 86.36 107.95) (xy 85.09 107.95)
 		)
 		(stroke
@@ -11402,16 +11448,6 @@
 			(type default)
 		)
 		(uuid "e2ccf16c-b7eb-446a-9bbf-934e8a3cc945")
-	)
-	(wire
-		(pts
-			(xy 186.69 31.75) (xy 191.77 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e368048d-baa6-47c0-a699-f100a25393e2")
 	)
 	(wire
 		(pts
@@ -11525,6 +11561,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 38.1) (xy 189.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba44bcd-f4a2-4344-b025-2179f38cdb67")
+	)
+	(wire
+		(pts
 			(xy 111.76 76.2) (xy 111.76 80.01)
 		)
 		(stroke
@@ -11542,6 +11588,16 @@
 			(type default)
 		)
 		(uuid "eccae2ff-689d-4117-85b4-58404298f58a")
+	)
+	(wire
+		(pts
+			(xy 186.69 31.75) (xy 189.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5e382a-d14c-4fae-993f-1e2a3ad070c4")
 	)
 	(wire
 		(pts
@@ -12882,7 +12938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01938ea2-ecb9-4d0f-bccb-a0245cb0bb5d")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -13009,7 +13065,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13024,7 +13080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02eea076-bfc9-404c-8c6d-379468dec824")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR023"
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -13074,7 +13130,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR012")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13198,7 +13254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b824dfa-4c29-4a8c-a193-2ca976312500")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR022"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -13248,7 +13304,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR031")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13438,7 +13494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fc5f973-cd07-42bb-be71-a374ebab61de")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR027"
 			(at 162.56 49.53 0)
 			(effects
 				(font
@@ -13488,7 +13544,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR037")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13609,7 +13665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13d9b5f2-e28e-45b6-a31f-9568b3b37ec7")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 80.01 29.21 0)
 			(effects
 				(font
@@ -13659,7 +13715,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13667,15 +13723,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 196.85 31.75 270)
+		(at 198.12 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "14306ebc-ec06-4fa1-8cec-24e4c7bf7eb5")
-		(property "Reference" "#PWR038"
-			(at 193.04 31.75 0)
+		(property "Reference" "#PWR031"
+			(at 194.31 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13684,7 +13740,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 199.39 31.75 90)
+			(at 200.66 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13693,7 +13749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 31.75 0)
+			(at 198.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13702,7 +13758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 31.75 0)
+			(at 198.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13711,7 +13767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 31.75 0)
+			(at 198.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13725,7 +13781,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR038")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13741,7 +13797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1751eecf-8c0c-473f-87e9-55e6c4bd19ad")
-		(property "Reference" "H37"
+		(property "Reference" "H22"
 			(at 252.7876 121.9199 90)
 			(effects
 				(font
@@ -13793,7 +13849,118 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H37")
+					(reference "H22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:22uF,6.3V,0603")
+		(at 186.69 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1af35135-a8d6-4e86-8eaa-dc4b195971ed")
+		(property "Reference" "C18"
+			(at 194.31 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF,6.3V,0603"
+			(at 210.82 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitors:C_0603"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8555544417670705152"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 175.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A226MQ8NRNC"
+			(at 182.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Type" "Basic"
+			(at 173.228 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24d6ea67-b9d5-4212-808d-934e7ef77640")
+		)
+		(pin "1"
+			(uuid "8b0d6821-b0b6-423b-8798-72ea190f7a32")
+		)
+		(instances
+			(project ""
+				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13809,7 +13976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb7b1c8-eb16-4fb6-96ce-6650a0b64a51")
-		(property "Reference" "H17"
+		(property "Reference" "H26"
 			(at 254 29.21 90)
 			(effects
 				(font
@@ -13861,7 +14028,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H17")
+					(reference "H26")
 					(unit 1)
 				)
 			)
@@ -13877,7 +14044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d9894e9-414f-4800-8e06-cef6083011c3")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 227.33 153.67 0)
 			(effects
 				(font
@@ -13972,7 +14139,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -14084,17 +14251,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:47uF,6.3V,0805")
-		(at 186.69 34.29 90)
+		(lib_id "Capacitors:22uF,6.3V,0603")
+		(at 189.23 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f17d56f-3159-4b7b-a3b6-536b0089504e")
-		(property "Reference" "C18"
-			(at 189.23 33.0199 90)
+		(property "Reference" "C19"
+			(at 190.5 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14102,8 +14268,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uF,6.3V,0805"
-			(at 189.23 35.5599 90)
+		(property "Value" "22uF,6.3V,0603"
+			(at 195.58 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,8 +14277,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitors:C_0805"
-			(at 177.8 34.29 0)
+		(property "Footprint" "Capacitors:C_0603"
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14121,8 +14287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A476MQYNNNE_C16780.pdf"
-			(at 184.15 34.29 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8555544417670705152"
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,8 +14297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 47UF 6.3V 0805 ROHS"
-			(at 186.69 34.29 0)
+		(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 189.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,8 +14306,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16780"
-			(at 175.26 34.29 0)
+		(property "LCSC" "C59461"
+			(at 177.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14150,8 +14316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A476MQYNNNE"
-			(at 182.88 34.29 0)
+		(property "Manufacturer Part Number" "CL10A226MQ8NRNC"
+			(at 185.42 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14161,7 +14327,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 180.34 34.29 0)
+			(at 182.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,8 +14336,8 @@
 				(hide yes)
 			)
 		)
-		(property "Library Type" "Extended"
-			(at 172.974 34.29 0)
+		(property "Library Type" "Basic"
+			(at 175.768 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,7 +14355,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -14197,15 +14363,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 20.32 90)
+		(at 199.39 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "22362484-ddf9-40c1-a0f2-ad6f9665ab83")
-		(property "Reference" "#PWR039"
-			(at 208.28 20.32 0)
+		(property "Reference" "#PWR032"
+			(at 205.74 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14214,7 +14380,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 20.32 90)
+			(at 204.47 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +14388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 20.32 0)
+			(at 199.39 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +14397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 20.32 0)
+			(at 199.39 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,7 +14406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 20.32 0)
+			(at 199.39 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,7 +14420,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR039")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14337,7 +14503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "234e3c6e-bdec-40bd-a285-309ba0e20bba")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR021"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -14387,7 +14553,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -14404,7 +14570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f7d0a6-cd7e-4c8c-9f04-3224c77bc35a")
-		(property "Reference" "H10"
+		(property "Reference" "H14"
 			(at 233.68 69.85 90)
 			(effects
 				(font
@@ -14456,7 +14622,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H10")
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -14538,7 +14704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f60edd4-1a03-460e-9775-e27b79ac1f79")
-		(property "Reference" "H28"
+		(property "Reference" "H37"
 			(at 254 85.09 90)
 			(effects
 				(font
@@ -14590,7 +14756,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H28")
+					(reference "H37")
 					(unit 1)
 				)
 			)
@@ -14605,7 +14771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31c612a5-4c87-4956-b655-a6515c00082f")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 173.99 25.4 0)
 			(effects
 				(font
@@ -14702,7 +14868,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14979,7 +15145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37157bfc-eda1-4b63-b4b4-b8f7bf61f136")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 31.75 134.62 0)
 			(effects
 				(font
@@ -15030,7 +15196,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -15045,7 +15211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ad48e95-6f41-4d92-a772-3a8464a6d46b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 25.4 109.22 0)
 			(effects
 				(font
@@ -15095,7 +15261,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15110,7 +15276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b88418a-1649-4153-bb0b-86bfd2bd5da0")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 81.28 78.74 90)
 			(effects
 				(font
@@ -15206,7 +15372,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15214,7 +15380,7 @@
 	)
 	(symbol
 		(lib_id "Diodes:LED,0603,Red")
-		(at 199.39 20.32 180)
+		(at 196.85 20.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15222,7 +15388,7 @@
 		(dnp no)
 		(uuid "3c460fbb-7680-4973-ac60-facd2199f277")
 		(property "Reference" "LED1"
-			(at 191.77 25.4 0)
+			(at 189.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15231,7 +15397,7 @@
 			)
 		)
 		(property "Value" "LED,0603,Red"
-			(at 198.12 25.4 0)
+			(at 195.58 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15240,7 +15406,7 @@
 			)
 		)
 		(property "Footprint" "Diodes:LED_0603_Red"
-			(at 199.39 29.21 0)
+			(at 196.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15250,7 +15416,7 @@
 			)
 		)
 		(property "Datasheet" "Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
-			(at 199.39 22.86 0)
+			(at 196.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15260,7 +15426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 20.32 0)
+			(at 196.85 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15269,7 +15435,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 199.39 23.495 0)
+			(at 196.85 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15279,7 +15445,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "KT-0603R"
-			(at 199.39 25.4 0)
+			(at 196.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15289,7 +15455,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 199.39 27.305 0)
+			(at 196.85 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15299,7 +15465,7 @@
 			)
 		)
 		(property "Library Type" "Basic"
-			(at 199.39 31.115 0)
+			(at 196.85 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15334,7 +15500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cd22b87-e9c9-4dee-aca6-f6c4735cf9de")
-		(property "Reference" "H7"
+		(property "Reference" "H11"
 			(at 233.68 54.61 90)
 			(effects
 				(font
@@ -15386,7 +15552,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H7")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -15402,7 +15568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d323f2b-741c-48fa-a244-a00c975d46dd")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 127 186.69 0)
 			(effects
 				(font
@@ -15498,7 +15664,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15513,7 +15679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "426d7541-b23f-4c9e-a45b-969becefb046")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 81.28 76.2 90)
 			(effects
 				(font
@@ -15609,7 +15775,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15735,7 +15901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44853f49-04e2-48c8-8319-10f2b08b9fc7")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 49.53 107.95 90)
 			(effects
 				(font
@@ -15831,7 +15997,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15957,7 +16123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48451ae1-987a-4c51-8613-cb7cfc336d66")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR028"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -16007,7 +16173,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR042")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16023,7 +16189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a37963-a18f-41b0-9dbe-522ab7bfb321")
-		(property "Reference" "H23"
+		(property "Reference" "H32"
 			(at 254 59.69 90)
 			(effects
 				(font
@@ -16075,7 +16241,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H23")
+					(reference "H32")
 					(unit 1)
 				)
 			)
@@ -16092,7 +16258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b5f099c-11cb-4e82-b40d-9c4bb58aa847")
-		(property "Reference" "H1"
+		(property "Reference" "H5"
 			(at 233.68 24.13 90)
 			(effects
 				(font
@@ -16144,7 +16310,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H1")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -16517,7 +16683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53fccb1a-bc89-4f8c-8cdc-da99f1fa3e27")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR033"
 			(at 214.63 29.21 0)
 			(effects
 				(font
@@ -16568,7 +16734,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR024")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16584,7 +16750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55469e74-9c8d-4d0d-acc7-e4872b62fdcd")
-		(property "Reference" "H35"
+		(property "Reference" "H20"
 			(at 252.7876 111.7599 90)
 			(effects
 				(font
@@ -16636,7 +16802,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H35")
+					(reference "H20")
 					(unit 1)
 				)
 			)
@@ -16761,7 +16927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0c679d-bede-41f3-9dbb-373818323726")
-		(property "Reference" "H32"
+		(property "Reference" "H2"
 			(at 55.88 54.6099 0)
 			(effects
 				(font
@@ -16813,7 +16979,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H32")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -16830,7 +16996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b71dd0c-827c-4e13-8819-0faaf9b66fa2")
-		(property "Reference" "H11"
+		(property "Reference" "H15"
 			(at 233.68 74.93 90)
 			(effects
 				(font
@@ -16882,7 +17048,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H11")
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -16899,7 +17065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bafa89b-fdfe-4b48-8497-2f3174892c09")
-		(property "Reference" "H9"
+		(property "Reference" "H13"
 			(at 233.68 64.77 90)
 			(effects
 				(font
@@ -16951,7 +17117,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H9")
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -16966,7 +17132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bc7c332-7812-4436-ac4a-b8c83cc1d3d5")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 25.4 73.66 0)
 			(effects
 				(font
@@ -17016,7 +17182,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -17031,7 +17197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bf2cd72-dc6f-4ace-ad30-01f47f6d039d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -17081,7 +17247,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17096,7 +17262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d361f0a-cd2c-49fb-8136-fa7560965c0d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR037"
 			(at 246.38 156.21 0)
 			(effects
 				(font
@@ -17146,7 +17312,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR028")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17338,7 +17504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e89c0d7-face-4599-b058-399a8ae1e91c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 152.4 72.39 0)
 			(effects
 				(font
@@ -17388,7 +17554,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17579,7 +17745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62bd4445-25a2-45c4-915b-a662d914a18f")
-		(property "Reference" "H4"
+		(property "Reference" "H8"
 			(at 233.68 39.37 90)
 			(effects
 				(font
@@ -17631,7 +17797,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H4")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -17823,7 +17989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69f38518-a6f5-4968-a72f-c04d75fab779")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 82.55 35.56 90)
 			(effects
 				(font
@@ -17919,7 +18085,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -17935,7 +18101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fe4315a-cc9e-4331-b45b-280dfa5071de")
-		(property "Reference" "H36"
+		(property "Reference" "H21"
 			(at 252.7876 116.8399 90)
 			(effects
 				(font
@@ -17987,7 +18153,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H36")
+					(reference "H21")
 					(unit 1)
 				)
 			)
@@ -18003,7 +18169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7539e037-501a-4672-a43d-4a91c375ea80")
-		(property "Reference" "H33"
+		(property "Reference" "H3"
 			(at 226.06 111.7599 90)
 			(effects
 				(font
@@ -18055,7 +18221,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H33")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -18357,7 +18523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b78c8cc-4938-43da-8f64-b412aef1b15d")
-		(property "Reference" "H31"
+		(property "Reference" "H1"
 			(at 55.88 41.9099 0)
 			(effects
 				(font
@@ -18409,7 +18575,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H31")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -18491,7 +18657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cbf1866-0cee-43ae-8142-fb96b4853c54")
-		(property "Reference" "H39"
+		(property "Reference" "H24"
 			(at 252.7876 132.0799 90)
 			(effects
 				(font
@@ -18543,7 +18709,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H39")
+					(reference "H24")
 					(unit 1)
 				)
 			)
@@ -18558,7 +18724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d3bacea-13bf-4a51-8b61-8652886d35dd")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 185.42 92.71 0)
 			(effects
 				(font
@@ -18608,7 +18774,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -18624,7 +18790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fcadffe-9a76-4b61-a46a-9eb5271c90b6")
-		(property "Reference" "H16"
+		(property "Reference" "H25"
 			(at 254 24.13 90)
 			(effects
 				(font
@@ -18676,7 +18842,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H16")
+					(reference "H25")
 					(unit 1)
 				)
 			)
@@ -18692,7 +18858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8051fd1f-6836-4185-9a9b-2dc3f03df23a")
-		(property "Reference" "H26"
+		(property "Reference" "H35"
 			(at 254 74.93 90)
 			(effects
 				(font
@@ -18744,7 +18910,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H26")
+					(reference "H35")
 					(unit 1)
 				)
 			)
@@ -18826,7 +18992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84d59b11-8862-4d41-bf7d-6cc421d7bb7b")
-		(property "Reference" "H6"
+		(property "Reference" "H10"
 			(at 233.68 49.53 90)
 			(effects
 				(font
@@ -18878,7 +19044,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H6")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -18895,7 +19061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852a0d7c-2c1b-4c1a-912d-34f3b34cdd24")
-		(property "Reference" "H2"
+		(property "Reference" "H6"
 			(at 233.68 29.21 90)
 			(effects
 				(font
@@ -18947,7 +19113,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H2")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -19029,7 +19195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8655516a-9b55-4b5f-9551-d57b32f79cc7")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 214.63 95.25 0)
 			(effects
 				(font
@@ -19080,7 +19246,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19097,7 +19263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87797d8e-03cb-461a-a239-899f2a0bb212")
-		(property "Reference" "H8"
+		(property "Reference" "H12"
 			(at 233.68 59.69 90)
 			(effects
 				(font
@@ -19149,7 +19315,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H8")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -19165,7 +19331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d548b05-ba86-4586-8ed6-2ec1476f8291")
-		(property "Reference" "H18"
+		(property "Reference" "H27"
 			(at 254 34.29 90)
 			(effects
 				(font
@@ -19217,7 +19383,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H18")
+					(reference "H27")
 					(unit 1)
 				)
 			)
@@ -19232,7 +19398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ecdf7c7-44bc-440f-8274-ae62d56b2553")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -19282,7 +19448,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -19415,7 +19581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "941d7aa1-61a3-473f-84b8-484277e526b8")
-		(property "Reference" "H5"
+		(property "Reference" "H9"
 			(at 233.68 44.45 90)
 			(effects
 				(font
@@ -19467,7 +19633,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H5")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -19482,7 +19648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9530e9f1-7761-49de-ba4e-95744f4a75c8")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 165.1 40.64 90)
 			(effects
 				(font
@@ -19578,7 +19744,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -19594,7 +19760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97cc2df5-3dc5-4f01-a026-ed52148b8322")
-		(property "Reference" "H22"
+		(property "Reference" "H31"
 			(at 254 54.61 90)
 			(effects
 				(font
@@ -19646,7 +19812,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H22")
+					(reference "H31")
 					(unit 1)
 				)
 			)
@@ -19661,7 +19827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99be49e0-3f79-46eb-93e6-e8dc82cda8ae")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 260.35 97.79 0)
 			(effects
 				(font
@@ -19755,7 +19921,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -20049,7 +20215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e73a813-3051-4a42-b75e-5927788c3a2f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR034"
 			(at 214.63 80.01 0)
 			(effects
 				(font
@@ -20100,7 +20266,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20116,7 +20282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f2c0068-91e3-4fab-bb79-ca5f2a5a9847")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -20166,7 +20332,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20183,7 +20349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5148b54-c95a-40bc-ac39-e3ca0eb6a6b3")
-		(property "Reference" "H3"
+		(property "Reference" "H7"
 			(at 233.68 34.29 90)
 			(effects
 				(font
@@ -20235,7 +20401,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H3")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -20361,7 +20527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a751bcbf-c955-403e-9f6b-8e609ac31e11")
-		(property "Reference" "C5"
+		(property "Reference" "C15"
 			(at 133.35 26.67 0)
 			(effects
 				(font
@@ -20457,7 +20623,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C5")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -20474,7 +20640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a95ac896-a751-4d30-a7b6-2aac494362de")
-		(property "Reference" "H27"
+		(property "Reference" "H36"
 			(at 254 80.01 90)
 			(effects
 				(font
@@ -20526,7 +20692,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H27")
+					(reference "H36")
 					(unit 1)
 				)
 			)
@@ -20607,7 +20773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abe6f65d-7165-4bd1-aa94-7c927e3463a0")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 107.95 63.5 90)
 			(effects
 				(font
@@ -20702,7 +20868,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -20849,7 +21015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af0b1f3f-e718-4693-8a3c-5cedb572b4fa")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 41.91 153.67 0)
 			(effects
 				(font
@@ -20899,7 +21065,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -20907,15 +21073,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 36.83 0)
+		(at 187.96 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b0b64e99-c6b3-4daf-8000-9ab8f25cf52e")
-		(property "Reference" "#PWR041"
-			(at 186.69 43.18 0)
+		(property "Reference" "#PWR030"
+			(at 187.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20924,7 +21090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 40.64 0)
+			(at 187.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20932,7 +21098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 36.83 0)
+			(at 187.96 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20941,7 +21107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 36.83 0)
+			(at 187.96 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20950,7 +21116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 36.83 0)
+			(at 187.96 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20964,7 +21130,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR041")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20979,7 +21145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3043040-9145-425c-9ac7-98e85a1f5d23")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR015"
 			(at 85.09 49.53 0)
 			(effects
 				(font
@@ -21029,7 +21195,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR034")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21155,7 +21321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bd0dcd-81fc-4581-81ee-5ceb74b9108f")
-		(property "Reference" "H13"
+		(property "Reference" "H17"
 			(at 233.68 85.09 90)
 			(effects
 				(font
@@ -21207,7 +21373,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H13")
+					(reference "H17")
 					(unit 1)
 				)
 			)
@@ -21223,7 +21389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7db95db-3f4a-4214-b2ac-d266ccd658ff")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 147.32 74.93 0)
 			(effects
 				(font
@@ -21319,7 +21485,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -21334,7 +21500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc32bfb1-e507-471e-ac00-68a0612f2163")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR016"
 			(at 91.44 66.04 0)
 			(effects
 				(font
@@ -21384,7 +21550,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR032")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21400,7 +21566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdd13b83-dd5f-4470-9414-66e714c9ea12")
-		(property "Reference" "H15"
+		(property "Reference" "H19"
 			(at 233.68 95.25 90)
 			(effects
 				(font
@@ -21452,7 +21618,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H15")
+					(reference "H19")
 					(unit 1)
 				)
 			)
@@ -21468,7 +21634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0dfbced-bbd3-4a9a-98e2-620301a36ae5")
-		(property "Reference" "H20"
+		(property "Reference" "H29"
 			(at 254 44.45 90)
 			(effects
 				(font
@@ -21520,7 +21686,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H20")
+					(reference "H29")
 					(unit 1)
 				)
 			)
@@ -21537,7 +21703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1c926d6-6705-46f2-ae50-621bfef9e109")
-		(property "Reference" "H14"
+		(property "Reference" "H18"
 			(at 233.68 90.17 90)
 			(effects
 				(font
@@ -21589,7 +21755,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H14")
+					(reference "H18")
 					(unit 1)
 				)
 			)
@@ -21606,7 +21772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c38ee38b-d05b-4981-8f65-32a438587c9a")
-		(property "Reference" "H12"
+		(property "Reference" "H16"
 			(at 233.68 80.01 90)
 			(effects
 				(font
@@ -21658,7 +21824,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H12")
+					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -21674,7 +21840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cada1c34-b6c5-48df-9ee1-3bfb50f215ac")
-		(property "Reference" "H21"
+		(property "Reference" "H30"
 			(at 254 49.53 90)
 			(effects
 				(font
@@ -21726,7 +21892,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H21")
+					(reference "H30")
 					(unit 1)
 				)
 			)
@@ -21742,7 +21908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb1608ef-40f7-4133-a2ff-1e94082a3cff")
-		(property "Reference" "H34"
+		(property "Reference" "H4"
 			(at 226.1176 116.8399 90)
 			(effects
 				(font
@@ -21794,7 +21960,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H34")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -21810,7 +21976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdfd0676-b502-4449-9e35-153c4e6d3a9f")
-		(property "Reference" "H24"
+		(property "Reference" "H33"
 			(at 254 64.77 90)
 			(effects
 				(font
@@ -21862,7 +22028,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H24")
+					(reference "H33")
 					(unit 1)
 				)
 			)
@@ -22009,7 +22175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3498633-5a9b-441e-94b6-62fc8c4a35a7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR035"
 			(at 204.47 90.17 0)
 			(effects
 				(font
@@ -22059,7 +22225,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR026")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -22075,7 +22241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6b94d72-b19c-4d7b-b69a-ed939145300c")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 107.95 66.04 90)
 			(effects
 				(font
@@ -22170,7 +22336,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -22185,7 +22351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6de47be-7287-4f3d-a5b4-e8f1a0160aa9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 41.91 132.08 0)
 			(effects
 				(font
@@ -22235,7 +22401,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -22250,7 +22416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d755d48b-49be-4c33-bbde-c016b0ba5762")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 31.75 113.03 0)
 			(effects
 				(font
@@ -22301,7 +22467,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -22316,7 +22482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7fe2da3-7e90-490c-8800-48f4ad13e906")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR038"
 			(at 283.21 80.01 0)
 			(effects
 				(font
@@ -22366,7 +22532,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR029")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22382,7 +22548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d991761c-d5f6-47c5-bc43-281c5ab27bf5")
-		(property "Reference" "H25"
+		(property "Reference" "H34"
 			(at 254 69.85 90)
 			(effects
 				(font
@@ -22434,7 +22600,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H25")
+					(reference "H34")
 					(unit 1)
 				)
 			)
@@ -22449,7 +22615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df5f827d-7adc-4373-8fef-dd276789faeb")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 144.78 39.37 90)
 			(effects
 				(font
@@ -22545,7 +22711,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -22562,7 +22728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e294079f-f6dc-4ffd-997c-11683cc64175")
-		(property "Reference" "H29"
+		(property "Reference" "H38"
 			(at 254 90.17 90)
 			(effects
 				(font
@@ -22614,7 +22780,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H29")
+					(reference "H38")
 					(unit 1)
 				)
 			)
@@ -22629,7 +22795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5ddb46f-e77f-4609-bc27-71515b90a268")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR026"
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -22680,7 +22846,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -22696,7 +22862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e77123e7-489b-448d-a06d-9e286f9af4b7")
-		(property "Reference" "H38"
+		(property "Reference" "H23"
 			(at 252.7876 126.9999 90)
 			(effects
 				(font
@@ -22748,7 +22914,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H38")
+					(reference "H23")
 					(unit 1)
 				)
 			)
@@ -22765,7 +22931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e94c0adf-83b1-4afe-9312-4d65774608b4")
-		(property "Reference" "H30"
+		(property "Reference" "H39"
 			(at 254 95.25 90)
 			(effects
 				(font
@@ -22817,7 +22983,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H30")
+					(reference "H39")
 					(unit 1)
 				)
 			)
@@ -23229,7 +23395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f69d0671-e3d2-481f-b845-f9800e1f84f9")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 62.23 34.29 90)
 			(effects
 				(font
@@ -23325,7 +23491,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -23341,7 +23507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6e020fb-b89c-4648-9eb9-0f56166bd964")
-		(property "Reference" "H19"
+		(property "Reference" "H28"
 			(at 254 39.37 90)
 			(effects
 				(font
@@ -23393,7 +23559,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "H19")
+					(reference "H28")
 					(unit 1)
 				)
 			)
@@ -23402,15 +23568,15 @@
 	(symbol
 		(lib_name "5.1KR,1%_1")
 		(lib_id "Resistors:5.1KR,1%")
-		(at 194.31 20.32 0)
+		(at 191.77 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fc23757f-0325-43e1-aa03-b83996ca27ca")
-		(property "Reference" "R7"
-			(at 191.77 22.86 0)
+		(property "Reference" "R9"
+			(at 189.23 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23419,7 +23585,7 @@
 			)
 		)
 		(property "Value" "5.1KR,1%"
-			(at 198.12 22.86 0)
+			(at 195.58 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23428,7 +23594,7 @@
 			)
 		)
 		(property "Footprint" "Resistors:R_0402"
-			(at 194.31 11.43 0)
+			(at 191.77 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23438,7 +23604,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 194.31 17.78 0)
+			(at 191.77 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23448,7 +23614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 20.32 0)
+			(at 191.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23457,7 +23623,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 194.31 8.89 0)
+			(at 191.77 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23467,7 +23633,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5101TCE"
-			(at 194.31 16.51 0)
+			(at 191.77 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23477,7 +23643,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 194.31 13.97 0)
+			(at 191.77 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23487,7 +23653,7 @@
 			)
 		)
 		(property "Library Type" "Basic"
-			(at 194.31 6.35 0)
+			(at 191.77 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23505,7 +23671,7 @@
 		(instances
 			(project "Geekble_Mini_ESP32C3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -23520,7 +23686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe0f1b0b-bd5e-4430-acea-60c50fc5ee42")
-		(property "Reference" "C15"
+		(property "Reference" "C9"
 			(at 78.74 55.88 90)
 			(effects
 				(font
@@ -23616,7 +23782,7 @@
 		(instances
 			(project ""
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "C15")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -23631,7 +23797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe37277a-c6d9-4093-8e07-a349b21ded90")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR012"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -23681,7 +23847,7 @@
 		(instances
 			(project "Geekble_Nano_ESP32S3"
 				(path "/618924b7-88b8-49f2-b60a-deb9980a8313"
-					(reference "#PWR035")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
